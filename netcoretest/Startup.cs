@@ -17,6 +17,7 @@ namespace netcoretest
     {
         public Startup(IConfiguration configuration)
         {
+           
             Configuration = configuration;
         }
 
