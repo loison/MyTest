@@ -14,6 +14,7 @@ namespace netcoretest.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            string a = 'test';
             return new string[] { "value1", "value2" };
         }
 
